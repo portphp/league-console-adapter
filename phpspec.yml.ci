@@ -1,0 +1,10 @@
+suites:
+  console_suite:
+    namespace: Port\LeagueConsole
+    psr4_prefix: Port\LeagueConsole
+formatter.name: pretty
+extensions:
+  - PhpSpec\Extension\CodeCoverageExtension
+code_coverage:
+  format: clover
+  output: coverage.clover

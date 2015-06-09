@@ -1,0 +1,48 @@
+{
+    "name": "portphp/league-console-adapter",
+    "description": "League Console tools for Port",
+    "license": "MIT",
+    "homepage": "https://github.com/portphp",
+    "authors": [
+        {
+            "name": "David de Boer",
+            "email": "david@ddeboer.nl"
+        },
+        {
+            "name": "Markus Bachmann",
+            "email": "markus.bachmann@bachi.biz"
+        },
+        {
+            "name": "Márk Sági-Kazár",
+            "email": "mark.sagikazar@gmail.com"
+        },
+        {
+            "name": "Community contributors",
+            "homepage": "https://github.com/portphp/league-console-adapter/graphs/contributors"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/portphp/portphp/issues",
+        "source": "https://github.com/portphp/league-console-adapter",
+        "docs": "https://portphp.readthedocs.org"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "portphp/portphp": "^1.0@dev",
+        "league/climate": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Port\\LeagueConsole\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^2.2",
+        "henrikbjorn/phpspec-code-coverage" : "^1.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
